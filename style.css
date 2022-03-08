@@ -1,0 +1,44 @@
+
+body {
+	background-color: rgb(255, 167, 25, 0.2);
+}
+
+.container {
+	display: flex;
+	background-color: pink;
+	height: 1300px;
+	flex-wrap: wrap;
+	flex-direction: columns;
+	justify-content: center;
+	margin: 50px;
+		}
+
+
+ 
+ /* #3, #2 {justify-content: flex-end;} CHECK THIS OUT */
+
+
+h1{ 
+	font-family: 'Shizuru', cursive;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 600px;
+	text-align: center;
+	box-shadow: 5px 5px #88888888;
+
+ }
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 20px;
+/*	transition-property: all;
+ 	transition-duration: 3s;
+ 	transition-timing-function: ease-in*/ 
+ 	transition: transform 2s ease-in-out 500ms;
+}
+img:hover {
+	transform: scale(1.5) ;
+
+} 
